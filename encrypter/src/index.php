@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Upload file to server</h1>
+    <h1>Server</h1>
+    <h2>Upload text file</h2>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file"/>
         <br><br>

@@ -14,10 +14,14 @@
         Decryptor
     </h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-
-            <input type="file" name="file" />
-
+        <label >
+            Choose file to decrypt
+        </label>
+        <input type="file" name="file" />
         <br><br>
+        <label >
+            Choose key
+        </label>
         <input type="file" name="key" placeholder="Select the private key" />
         <br><br>
         <button>Load file</button>
