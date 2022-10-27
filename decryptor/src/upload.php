@@ -7,6 +7,7 @@
     $key = read_file(upload_file('key','files',false));
 
     $result = decrypt($encrypted_text,$key);
+    write_file($result);
     echo "<h2>The decrypted text is:</h2>";
     echo "<br>";
     echo $result;
