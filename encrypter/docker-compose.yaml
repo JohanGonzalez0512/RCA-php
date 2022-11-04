@@ -7,3 +7,5 @@ services:
     ports:
       - 80:80
     container_name: server-app
+    volumes:
+      -./dockerfiles:/var/www/html

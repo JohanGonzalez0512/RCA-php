@@ -7,3 +7,5 @@ services:
     ports:
       - 8080:80
     container_name: client-app
+    volumes:
+      -./files:/var/www/html
